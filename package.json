@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "lint": "eslint .",
+  "format": "lint -- --fix --dir .",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +18,11 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
   }
 }
