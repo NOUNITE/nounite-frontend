@@ -12,9 +12,9 @@ const Navbar = () => {
   ];
   let [click, setClick] = useState(false);
   return (
-    <div className="w-full absolute top-0 left-0 px-1 lg:px-5 md:px-0">
-      <div className="md:flex items-center justify-between  py-4 md:px-10 px-7">
-        <div className="w-36">
+    <div className="w-full fixed bg-[#FFFFFF] top-0 left-0 px-1 lg:px-5 md:px-0">
+      <div className="md:flex items-center justify-between md:w-full  py-4 md:px-5 px-7">
+        <div className="w-36 md:w-24">
           <img src={logo} />
         </div>
 
@@ -44,9 +44,11 @@ const Navbar = () => {
             Join the Waitlist
           </button>
         </ul>
-        <button className="hidden lg:block bg-[#0D4459] text-[#FFFFFF] px-5 py-2 rounded-md font-poppins font-medium text-base md:text-sm">
-          Join the Waitlist
-        </button>
+        <div className="md:pl-10 ">
+          <button className="hidden lg:block bg-[#0D4459] text-[#FFFFFF] md:px-5 ml-0  px-2 py-2 rounded-md font-poppins font-medium text-base md:text-sm">
+            Join the Waitlist
+          </button>
+        </div>
       </div>
     </div>
   );
