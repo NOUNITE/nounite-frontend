@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
   let [click, setClick] = useState(false);
   return (
-    <div className="w-full fixed top-0 left-0 px-1 lg:px-5 md:px-0">
+    <div className="w-full absolute top-0 left-0 px-1 lg:px-5 md:px-0">
       <div className="md:flex items-center justify-between  py-4 md:px-10 px-7">
         <div className="w-36">
           <img src={logo} />
