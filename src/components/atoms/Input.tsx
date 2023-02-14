@@ -13,15 +13,9 @@ interface InputInterface{
 
 const Input = ({type,placeholder,label,icon,onChange,defaultValue, className}:InputInterface) => {
   return (
-    <div className='my-8 p-3 ring-1 ring-primary relative'>
-        <label className='absolute text-white px-1 font-bold bg-dark text-sm -top-3' htmlFor="">{label}</label>
-        <div className="flex items-center justify-between">
-            <input onChange={onChange} id={label} name={label} type={type} defaultValue={defaultValue} className={className} placeholder={placeholder} />
-            <span>
-                {icon}
-            </span>
+        <div className="flex items-center justify-between ">
+            <input onChange={onChange} id={label} name={label} type={type} defaultValue={defaultValue} className={"w-full outline-none bg-white text-black h-10 pl-3 rounded-md font-normal bg-clip-padding transition ease-in-out  focus:outline-none"||className} placeholder={placeholder} />
         </div>
-    </div>
   )
 }
 
