@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "lint": "eslint .",
-  "format": "lint -- --fix --dir .",
+      "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "yarn run lint -- --fix",
+    "eslint": "eslint \"src/**/*.{js,jsx}\" --fix",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

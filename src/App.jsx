@@ -1,5 +1,5 @@
-import MainSection from "./components/MainSection";
-import Navbar from "./components/Navbar";
+import MainSection from "./components/home/MainSection";
+import Navbar from "./components/common/Navbar";
 
 function App() {
   return (
