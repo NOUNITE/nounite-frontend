@@ -20,7 +20,8 @@ module.exports = {
       },
       colors : {
         textHover: "#0F0E0E",
-        btnColor: "#0D4459"
+        btnColor: "#0D4459",
+        primary: "#36BEB0"
       }
     }
   },

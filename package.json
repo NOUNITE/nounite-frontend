@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-      "lint": "eslint src --ext .js,.jsx",
-    "lint:fix": "yarn run lint -- --fix",
-    "eslint": "eslint \"src/**/*.{js,jsx}\" --fix",
+  "lint": "eslint src --ext .js,.jsx",
+  "lint:fix": "yarn run lint -- --fix",
+  "eslint": "eslint \"src/**/*.{js,jsx}\" --fix",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
