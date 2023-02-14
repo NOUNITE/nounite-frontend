@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in ${
             click ? "top-20 " : "top-[-490px]"
           }`}
         >
@@ -34,7 +34,7 @@ const Navbar = () => {
             <li key={link.name} className="md:ml-8 text-md md:my-0 my-7">
               <a
                 href={link.link}
-                className="hover:text-[#0F0E0E] text-gray-800 font-poppins font-medium text-base duration-500"
+                className="hover:text-[#0F0E0E] text-gray-800 font-poppins font-medium text-base duration-300"
               >
                 {link.name}
               </a>
@@ -44,7 +44,7 @@ const Navbar = () => {
             Join the Waitlist
           </button>
         </ul>
-        <div className="md:pl-10 ">
+        <div className="md:ml-10 ">
           <button className="hidden lg:block bg-[#0D4459] text-[#FFFFFF] md:px-5 ml-0  px-2 py-2 rounded-md font-poppins font-medium text-base md:text-sm">
             Join the Waitlist
           </button>
