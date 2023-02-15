@@ -9,10 +9,14 @@ const Navbar = () => {
     { name: "Faq", link: "/" }
   ];
   let [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    window.location.assign("/waitlist");
+  };
   return (
     <div className="w-full fixed bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
       <div className="md:flex items-center justify-between md:w-full py-4 md:px-4 px-7">
-        <div className="w-36 md:w-24">
+        <div className="w-36 lg:w-24">
           <img src={ "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/nounitelogo_iidmsh.png" || logo}
             className="w-full"
           />
@@ -49,7 +53,7 @@ const Navbar = () => {
           </button>
         </ul>
         <div className="md:pl-5 ">
-          <button className="hidden md:block bg-btnColor text-white w-[10rem]  px-2 py-2 rounded-md font-poppins font-medium text-base md:text-sm">
+          <button onClick={handleClick} className="hidden md:block bg-btnColor text-white w-[10rem]  px-2 py-2 rounded-md font-poppins font-medium text-base md:text-sm">
             Join the Waitlist
           </button>
         </div>
