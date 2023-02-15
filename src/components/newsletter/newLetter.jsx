@@ -1,22 +1,22 @@
 const NewsLetter = () => {
   return (
     <div className="my-10 flex w-full justify-center items-center">
-      <div className="bg-primary w-[90%] md:w-[80%] flex flex-col lg:flex-row px-6 justify-between items-center py-5 rounded-lg ">
-        <h1 className="py-1 text-center text-white font-poppins text-xl md:text-2xl ">
+      <div className="bg-primary w-[90vw] lg:w-[80vw] flex  flex-row px-2 lg:px-6 justify-between items-center py-5 rounded-lg ">
+        <h1 className="py-1 text-left lg:text-center text-white font-poppins text-[12px] md:text-base lg:text-xl ">
           Subscribe To Our Newsletters
         </h1>
 
-        <div className="flex overflow-hidden lg:flex-row flex-col rounded-sm w-[60%] bg-slate-100 lg:justify-between px-1 py-1 justify-center items-center">
+        <div className="flex overflow-hidden flex-row rounded-sm w-[70%] lg:w-[60%] bg-slate-100 justify-between px-1 py-1 items-center">
           <input 
             type="text"
-            className="h-[3rem] md:h-[3rem] font-poppins  outline-none lg:w-[70%] bg-slate-100 px-6 "
-            placeholder="your email address"
+            className="h-[2rem] md:h-[3rem] font-poppins outline-none w-[55%] md:w-[60%] lg:w-[70%] text-[12px] bg-slate-100 px-1 md:px-3"
+            placeholder="Your email address"
           />
             <button
-              className="bg-btnColor lg:mt-0 mt-[1.5rem] lg:w-[25%] text-base font-poppins text-slate-100 lg:relative placeholder:text-[#fff] py-2 px-5 font-bold rounded-md z-50"
+              className="bg-btnColor text-[12px] lg:text-base font-poppins text-slate-100 placeholder:text-[#fff] py-2 px-3 rounded-sm"
               type="submit"
             >
-              Subscribe Now
+              Subscribe
             </button>
         </div>
       </div>
