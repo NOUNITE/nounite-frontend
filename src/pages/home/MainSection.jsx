@@ -4,7 +4,7 @@ import DefaultLayout from "../../layout/DefaultLayout";
 const MainSection = () => {
   return (
     <DefaultLayout>
-      <div className="mt-28 flex flex-col lg:flex-row px-10 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full">
+      <div className="py-16 flex flex-col lg:flex-row px-10 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full">
         <div className="lg:w-4/6 w-full">
           <h1
             className="font-poppins font-semibold md:text-5xl lg:text-5xl text-5xl "
@@ -13,9 +13,9 @@ const MainSection = () => {
             }}
           >
           Making <br /> Open and Distant Learning <br />
-            <b className="text-[#36BEB0]">Easier </b>and More{" "}
-            <b className="text-[#36BEB0]">Secured</b> <br /> For{" "}
-            <b className="text-[#36BEB0]">You</b>.
+            <b className="text-primary">Easier </b>and More{" "}
+            <b className="text-primary">Secured</b> <br /> For{" "}
+            <b className="text-primary">You</b>.
           </h1>
           <p className="pt-5 leading-loose font-poppins font-medium md:text-base text-lg">
           With <b>NOUNITE</b>, your Open and Distant learning experience will
