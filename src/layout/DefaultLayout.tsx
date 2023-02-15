@@ -1,5 +1,6 @@
 import React from "react";
 import { Fragment } from "react";
+import Advert from "../components/common/advert";
 import Navbar from "../components/common/Navbar";
 
 interface Props {
@@ -13,7 +14,7 @@ const DefaultLayout = ({ children }: Props) => {
 
       <div>{children}</div>
       
-
+      <Advert />
 
     </Fragment>
   );
