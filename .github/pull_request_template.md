@@ -2,7 +2,7 @@
 <!-- please select the type that matches this PR -->
 - [ ] bug
 - [ ] feature
-- [ ] documentaion
+- [ ] documentation
 - [ ] test
 
 ###  Description of changes made 
