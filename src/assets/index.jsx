@@ -5,6 +5,8 @@ import close from "./images/close.png";
 import harmbugger from "./images/harmbugger.png";
 import logo from "./images/nounitelogo.png";
 import altApple from "./images/Shape.svg";
+import faqImg from "./images/faq-img.png";
+
 export {
   main,
   apple,
@@ -12,5 +14,6 @@ export {
   close,
   harmbugger,
   logo,
-  altApple
+  altApple,
+  faqImg
 };

@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import MainSection from "./components/home/MainSection";
-import Waitlist from "./components/waitlist/Waitlist";
+import Faq from "./pages/faq/faq";
+import MainSection from "./pages/home/MainSection";
+import Waitlist from "./pages/waitlist/Waitlist";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
         <Route path="/" element={<MainSection />} />
         <Route path="/waitlist" element={<Waitlist />} />
+        <Route path="/faq" element={<Faq />} />
 
       </Routes>
     </>
