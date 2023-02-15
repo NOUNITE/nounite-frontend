@@ -6,25 +6,40 @@ const Navbar = () => {
     { name: "Features", link: "/" },
     { name: "About Us", link: "/" },
     { name: "Blog", link: "/" },
-    { name: "Faq", link: "/" }
+    { name: "Faq", link: "/" },
   ];
   let [click, setClick] = useState(false);
   return (
     <div className="w-full fixed bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
       <div className="md:flex items-center justify-between md:w-full py-4 md:px-4 px-7">
         <div className="w-36 md:w-24">
-          <img src={ "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/nounitelogo_iidmsh.png" || logo} />
+          <img
+            src={
+              "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/nounitelogo_iidmsh.png" ||
+              logo
+            }
+          />
         </div>
 
         <div
           onClick={() => setClick(!click)}
           className="text-md absolute right-8 top-6 cursor-pointer md:hidden"
         >
-          {click ? 
-          <img src={"https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/close_is3pbq.png" || close} />
-          : 
-          <img src={ "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/harmbugger_c4zm1y.png" || harmbugger} />
-          }
+          {click ? (
+            <img
+              src={
+                "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/close_is3pbq.png" ||
+                close
+              }
+            />
+          ) : (
+            <img
+              src={
+                "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/harmbugger_c4zm1y.png" ||
+                harmbugger
+              }
+            />
+          )}
         </div>
 
         <ul
