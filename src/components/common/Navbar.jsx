@@ -48,7 +48,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <button className="block md:hidden  bg-btnColor text-white px-5 py-2 rounded-md font-poppins font-medium text-base">
+          <button onClick={handleClick} className="block md:hidden  bg-btnColor text-white px-5 py-2 rounded-md font-poppins font-medium text-base">
             Join the Waitlist
           </button>
         </ul>
