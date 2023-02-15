@@ -1,5 +1,5 @@
 import DefaultLayout from "../../layout/DefaultLayout";
-import Input from "../atoms/Input";
+import Input from "../../components/atoms/Input";
 import { useState } from "react";
 
 const Waitlist = () => {
