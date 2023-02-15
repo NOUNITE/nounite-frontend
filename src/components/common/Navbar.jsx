@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { logo, harmbugger, close } from "../../assets/index";
 const Navbar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
+    { name: "Home", link: "/" },
     { name: "Features", link: "/" },
     { name: "About", link: "/" },
     { name: "Blog", link: "/" },
@@ -14,7 +14,7 @@ const Navbar = () => {
     window.location.assign("/waitlist");
   };
   return (
-    <div className="w-full fixed bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
+    <div className="w-full sticky bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
       <div className="md:flex items-center justify-between md:w-full py-4 md:px-4 px-7">
         <div className="w-36 lg:w-24">
           <img src={ "https://res.cloudinary.com/phantom1245/image/upload/v1676382206/nounite/nounitelogo_iidmsh.png" || logo}
