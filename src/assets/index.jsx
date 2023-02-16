@@ -6,6 +6,9 @@ import harmbugger from "./images/harmbugger.png";
 import logo from "./images/nounitelogo.png";
 import altApple from "./images/Shape.svg";
 import faqImg from "./images/faq-img.png";
+import facebook from "./images/facebook.png";
+import twitter from "./images/twitter.png";
+import linkedin from "./images/linkedin.png";
 
 export {
   main,
@@ -15,5 +18,8 @@ export {
   harmbugger,
   logo,
   altApple,
-  faqImg
+  faqImg,
+  facebook,
+  twitter,
+  linkedin,
 };
