@@ -1,6 +1,8 @@
 import React from "react";
 import { Fragment } from "react";
 import Advert from "../components/common/advert";
+import Links from "../components/common/Links";
+import Footer from "../components/common/Footer";
 import Navbar from "../components/common/Navbar";
 import NewsLetter from "../components/newsletter/newLetter";
 
@@ -18,6 +20,8 @@ const DefaultLayout = ({ children }: Props) => {
       <Advert />
 
       <NewsLetter />
+      <Links />
+      <Footer />
 
     </Fragment>
   );
