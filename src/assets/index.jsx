@@ -7,14 +7,18 @@ import harmbugger from "./images/harmbugger.png";
 import logo from "./images/nounitelogo.png";
 import altApple from "./images/Shape.svg";
 import faqImg from "./images/faq-img.png";
+import students from "./images/students.png";
+import long from "./images/long.png";
 
 //icons imports
 import call  from "./icons/call.png";
 import facebook from "./icons/facebook.png";
-import linkedIn from "./icons/LinkedIn.png";
+import linkedin from "./icons/LinkedIn.png";
 import location from "./icons/location.png";
 import mail from "./icons/mail.png";
 import twitter from "./icons/Twitter.png";
+
+
 
 
 export {
@@ -28,8 +32,11 @@ export {
   faqImg,
   call,
   facebook,
-  linkedIn,
+  linkedin,
   location,
   mail,
-  twitter
+  twitter,
+  students,
+  long
+
 };
