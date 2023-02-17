@@ -2,6 +2,7 @@ import React from "react";
 import { main, google, apple } from "../../assets/index";
 import DefaultLayout from "../../layout/DefaultLayout";
 import Faq from "../faq/faq";
+import AboutUs from "./AboutUs";
 const MainSection = () => {
   return (
     <DefaultLayout>
@@ -57,6 +58,9 @@ const MainSection = () => {
         >
           <img src={main} />
         </div>
+      </div>
+      <div id="aboutus">
+        <AboutUs />
       </div>
       <div id="faq">
         <Faq />
