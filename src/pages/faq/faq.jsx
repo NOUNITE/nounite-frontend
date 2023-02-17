@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import DefaultLayout from "../../layout/DefaultLayout";
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
