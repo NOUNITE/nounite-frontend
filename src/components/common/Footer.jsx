@@ -1,5 +1,6 @@
 import React from "react";
-import { logo, facebook, twitter, linkedin } from "../../assets/index";
+import { logo } from "../../assets/index";
+import SocialIcons from "../molecule/socialIcons";
 const Footer = () => {
   return (
     <div className="w-full my-5">
@@ -14,26 +15,13 @@ const Footer = () => {
           />
         </div>
         <div className="pt-3 lg:pt-0 md:pt-0">
-          <p className="font-poppins font-medium text-[9.8px] align-center text-[#0F0E0E]">
+          <p className="font-poppins font-medium text-[9.8px] align-center text-textHover">
             © 2023 Nounite Media. All Rights Reserved.
+            
           </p>
         </div>
-        <div className="flex gap-5 pt-3 lg:pt-0 md:pt-0">
-          <div className="cursor-pointer">
-            <a href="/">
-              <img src={facebook} />
-            </a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="/">
-              <img src={twitter} />
-            </a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="/">
-              <img src={linkedin} />
-            </a>
-          </div>
+        <div >
+          <SocialIcons />
         </div>
       </div>
     </div>
