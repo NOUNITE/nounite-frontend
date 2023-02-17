@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { logo, harmbugger, close } from "../../assets/index";
 const Navbar = () => {
   let Links = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "#home" },
     { name: "Features", link: "/" },
     { name: "About", link: "/" },
     { name: "Blog", link: "/" },
