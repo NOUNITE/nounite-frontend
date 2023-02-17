@@ -6,6 +6,8 @@ import harmbugger from "./images/harmbugger.png";
 import logo from "./images/nounitelogo.png";
 import altApple from "./images/Shape.svg";
 import faqImg from "./images/faq-img.png";
+import students from "./images/students.png";
+import long from "./images/long.png";
 
 export {
   main,
@@ -15,5 +17,7 @@ export {
   harmbugger,
   logo,
   altApple,
-  faqImg
+  faqImg,
+  students,
+  long,
 };
