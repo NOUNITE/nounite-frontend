@@ -6,7 +6,7 @@ const Navbar = () => {
     { name: "Features", link: "/" },
     { name: "About", link: "/" },
     { name: "Blog", link: "/" },
-    { name: "Faq", link: "/faq" }
+    { name: "Faq", link: "#faq" }
   ];
   let [click, setClick] = useState(false);
 
