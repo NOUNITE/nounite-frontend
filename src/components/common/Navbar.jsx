@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { logo, harmbugger, close } from "../../assets/index";
+
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "#home" },
@@ -8,11 +9,18 @@ const Navbar = () => {
     { name: "Blog", link: "/" },
     { name: "Faq", link: "#faq" },
   ];
-  let [click, setClick] = useState(false);
+
+  const [click, setClick] = useState(false);
+  const [activeLink, setActiveLink] = useState("");
 
   const handleClick = () => {
     window.location.assign("/waitlist");
   };
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   return (
     <div className="w-full sticky bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
       <div className="md:flex items-center justify-between md:w-full py-4 md:px-4 px-7">
@@ -56,7 +64,12 @@ const Navbar = () => {
             <li key={link.name} className="md:ml-8 text-md md:my-0 my-7">
               <a
                 href={link.link}
-                className="hover:text-textHover text-gray-800 font-poppins font-medium text-base duration-300"
+                className={`hover:text-gray-800  font-poppins font-medium text-base duration-300 ${
+                  activeLink === link.name
+                    ? "text-gray-800"
+                    : "text-gray-900 text-opacity-75"
+                }`}
+                onClick={() => handleLinkClick(link.name)}
               >
                 {link.name}
               </a>
