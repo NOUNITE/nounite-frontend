@@ -7,22 +7,20 @@ const NewsLetter = () => {
         </h1>
 
         <div className="flex overflow-hidden flex-row rounded-sm w-[70%] lg:w-[60%] bg-slate-100 justify-between px-1 py-1 items-center">
-          <input 
+          <input
             type="text"
             className="h-[2rem] md:h-[3rem] font-poppins outline-none w-[55%] md:w-[60%] lg:w-[70%] text-[12px] lg:text-base bg-slate-100 px-1 md:px-3"
             placeholder="Your email address"
           />
-            <button
-              className="bg-btnColor text-[12px] lg:text-base font-poppins text-slate-100 placeholder:text-[#fff] py-2 lg:px-4 px-1 rounded-sm"
-              type="submit"
-            >
-              Subscribe
-            </button>
+          <button
+            className="bg-btnColor text-[12px] lg:text-base font-poppins text-slate-100 placeholder:text-[#fff] py-2 lg:px-4 px-1 rounded-sm"
+            type="submit"
+          >
+            Subscribe
+          </button>
         </div>
       </div>
-
     </div>
-
   );
 };
 
