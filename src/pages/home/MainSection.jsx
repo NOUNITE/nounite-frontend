@@ -5,7 +5,10 @@ import Faq from "../faq/faq";
 const MainSection = () => {
   return (
     <DefaultLayout>
-      <div className="py-16 flex flex-col lg:flex-row px-10 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full">
+      <div
+        className="py-16 flex flex-col lg:flex-row px-10 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full"
+        id="home"
+      >
         <div className="lg:w-4/6 w-full">
           <h1
             className="font-poppins font-semibold md:text-5xl lg:text-5xl text-5xl "
