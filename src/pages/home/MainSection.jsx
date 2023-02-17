@@ -2,7 +2,7 @@ import React from "react";
 import { main, google, apple } from "../../assets/index";
 import DefaultLayout from "../../layout/DefaultLayout";
 import Faq from "../faq/faq";
-import AboutUs from "./AboutUs";
+import AboutUs from "../../components/aboutus/AboutUs";
 const MainSection = () => {
   return (
     <DefaultLayout>
