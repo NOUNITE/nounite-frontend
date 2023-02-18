@@ -15,7 +15,7 @@ const DefaultLayout = ({ children }: Props) => {
     <Fragment>
       <Navbar />
 
-      <div>{children}</div>
+      <div className="">{children}</div>
       
       <Advert />
 

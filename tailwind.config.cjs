@@ -22,7 +22,9 @@ module.exports = {
         textHover: "#0F0E0E",
         btnColor: "#0D4459",
         primary: "#36BEB0",
-        paragraphColor: "#222"
+        paragraphColor: "#222",
+        gray: "#4F4F4F",
+        inputBorder: "#E0E0E0"
       }
     }
   },

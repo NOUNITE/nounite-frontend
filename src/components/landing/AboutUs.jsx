@@ -8,10 +8,10 @@ const AboutUs = () => {
       </div>
       <div className="flex justify-between flex-col lg:flex-row md:flex-row  lg:px-11 md:px-8 py-16">
         <div>
-          <h1 className="font-poppins xl:text-[54px] lg:text-[40px] text-[30px] text-[#0F0E0E] font-semibold border border-[#0D4459] border-solid rounded-full px-5">
+          <h1 className="font-poppins text-center lg:text-[40px] text-[30px] text-textHover font-semibold border border-btnColor border-solid rounded-[200%] py-2 px-8">
             What is NOUNITE?
           </h1>
-          <p className="font-poppins lg:text-[16px] md:text-[15px] xl:text-[18px] text-[15px] text-[#000000] font-normal mt-5">
+          <p className="font-poppins lg:text-[16px] md:text-[15px] xl:text-[18px] text-[15px] text-black font-normal mt-5">
             NOUNITE is the solution to all your academic
             <br /> struggles as a student of NOUN. NOUNITE brings
             <br /> those stressful processes to your fingertips.
