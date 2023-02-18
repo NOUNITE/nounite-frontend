@@ -15,8 +15,8 @@ export default function Contact() {
   const[message,setMessage] = useState("");
   return (
     <DefaultLayout>
-      <div className="my-32 relative flex flex-col font-poppins md:flex-row w-full bg-opacity-10 bg-primary">
-        <div className="md:w-1/2 w-full md:pl-10 lg:pl-20 pb-10">
+      <div className="my-14 md:my-32 relative flex flex-col font-poppins md:flex-row w-full bg-opacity-10 bg-primary">
+        <div className="md:w-1/2 w-full px-10 lg:px-20 pb-10">
  
           <div className="py-5">
             <div className="flex flex-row items-center py-4">
@@ -48,8 +48,8 @@ export default function Contact() {
             <SocialIcons />
           </div>
         </div>
-        <div className="md:w-1/2 w-full shadow-2xl ">
-          <div className="bg-white w-[40%] h-[38rem] absolute bottom-[-2rem] p-9 border border-inputBorder border-solid">
+        <div className="md:w-1/2 w-full flex justify-center items-center  ">
+          <div className="bg-white w-11/12 md:w-[40%] h-[38rem] md:absolute md:bottom-[-2rem] p-9 border border-inputBorder border-solid">
             <h1 className="text-4xl font-semibold">Let’s talk here</h1>
             <h2 className="text-gray text-md pt-2">We would love to hear from you!</h2>
             <form action="" >
