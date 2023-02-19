@@ -8,7 +8,7 @@ const AboutUs = () => {
       </div>
       <div className="flex justify-between items-center flex-col lg:flex-row md:flex-row  lg:px-8 md:px-5 py-16">
         <div>
-          <h1 className="font-poppins xl:text-[54px] lg:text-[40px] text-[30px] text-[#0F0E0E] font-semibold border border-[#0D4459] border-solid rounded-full w-fit px-5">
+          <h1 className="font-poppins xl:text-[54px] lg:text-[40px] text-[30px] text-textHover font-semibold border border-[#0D4459] border-solid rounded-full w-fit px-5">
             What is NOUNITE?
           </h1>
           <p className="font-poppins lg:text-[16px] md:text-[14px] xl:text-[18px] text-[15px] text-[#000000] font-normal mt-5">
@@ -26,7 +26,7 @@ const AboutUs = () => {
             <br /> Simpler than ever!
           </p>
         </div>
-        <div className="lg:w-[430px] xl-[500px] w-[450px] md:w-[360px] mt-16 lg:mt-0 md:mt-0 items-end">
+        <div className="items-center mt-10 lg:mt-0 w-[300px] lg:w-[500px] xl-[500px] w-[450px] md:w-[500px]">
           <img src={students} />
         </div>
       </div>
