@@ -11,12 +11,7 @@ const MainSection = () => {
         id="home"
       >
         <div className="lg:w-4/6 w-full">
-          <h1
-            className="font-poppins font-semibold md:text-5xl lg:text-5xl text-5xl "
-            style={{
-              lineHeight: "70px"
-            }}
-          >
+          <h1 className="font-poppins font-semibold md:text-4xl lg:text-5xl text-5xl leading-[70px] md:leading-[50px] lg:leading-[70px]">
             Making <br /> Open and Distant Learning <br />
             <b className="text-primary">Easier </b>and More{" "}
             <b className="text-primary">Secured</b> <br /> For{" "}
@@ -29,7 +24,7 @@ const MainSection = () => {
             work done on the go!
           </p>
           <div className="flex items-center gap-5 mt-5 ">
-            <div className="bg-textHover text-[#FFFFFF] flex items-center gap-3 px-2 lg:px-5 py-1 md:px-2 rounded-md cursor-pointer">
+            <div className="bg-textHover text-buttonText flex items-center gap-3 px-2 lg:px-5 py-1 md:px-2 rounded-md cursor-pointer">
               <div>
                 <img src={apple} />
               </div>
@@ -38,7 +33,7 @@ const MainSection = () => {
                 <p className="md:text-base text-sm">App Store</p>
               </div>
             </div>
-            <div className="bg-textHover text-[#FFFFFF] flex items-center gap-3 px-2 lg:px-5 py-1 md:px-2 rounded-md cursor-pointer">
+            <div className="bg-textHover text-buttonText flex items-center gap-3 px-2 lg:px-5 py-1 md:px-2 rounded-md cursor-pointer">
               <div>
                 <img src={google} />
               </div>
@@ -50,12 +45,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div
-          className="items-center mt-10 lg:mt-0 w-full"
-          style={{
-            width: "500px"
-          }}
-        >
+        <div className="items-center mt-10 lg:mt-0 w-full lg:w-[500px] xl-[500px] w-[450px] md:w-[500px]">
           <img src={main} />
         </div>
       </div>
