@@ -4,7 +4,7 @@ import { logo, harmbugger, close } from "../../assets/index";
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Features", link: "/" },
+    { name: "Features", link: "/features" },
     { name: "About", link: "/#aboutus" },
     { name: "Blog", link: "/" },
     { name: "Faq", link: "/#faq" }
