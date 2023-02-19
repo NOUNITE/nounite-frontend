@@ -1,5 +1,7 @@
 import React from "react";
-import { logo, facebook, twitter, linkedin } from "../../assets/index";
+import { logo } from "../../assets/index";
+
+import SocialLinkBtn from "../molecule/SocialLinkBtn";
 const Footer = () => {
   return (
     <div className="w-full my-5">
@@ -18,22 +20,8 @@ const Footer = () => {
             © 2023 Nounite Media. All Rights Reserved.
           </p>
         </div>
-        <div className="flex gap-5 pt-3 lg:pt-0 md:pt-0">
-          <div className="cursor-pointer">
-            <a href="/">
-              <img src={facebook} />
-            </a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="/">
-              <img src={twitter} />
-            </a>
-          </div>
-          <div className="cursor-pointer">
-            <a href="/">
-              <img src={linkedin} />
-            </a>
-          </div>
+        <div>
+          <SocialLinkBtn />
         </div>
       </div>
     </div>
