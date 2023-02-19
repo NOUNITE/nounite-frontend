@@ -5,35 +5,35 @@ const Links = () => {
     <div className="flex w-full justify-center items-center">
       <div className="flex w-[90vw] lg:w-[80vw] justify-between flex-wrap  m-auto">
         <div className="leading-[30px]">
-          <h1 className="font-poppins font-medium text-[18px] text-[#0F0E0E]">
+          <h1 className="font-poppins font-medium text-[18px] text-textHover">
             Sitemap
           </h1>
           <p className="pt-5 text-paragraphColor">
             <a href="/">Home</a>
           </p>
 
-          <p className="font-poppins font-normal text-[15px] text-[#0F0E0E]">
+          <p className="font-poppins font-normal text-[15px] text-textHover">
             <a href="/">Features</a>
           </p>
 
-          <p className="font-poppins font-normal text-[15px] text-[#0F0E0E]">
+          <p className="font-poppins font-normal text-[15px] text-textHover">
             <a href="/">About us</a>
           </p>
-          <p className="font-poppins font-normal text-[15px] text-[#0F0E0E]">
+          <p className="font-poppins font-normal text-[15px] text-textHover">
             <a href="/">Blog</a>
           </p>
-          <p className="font-poppins font-normal text-[15px] text-[#0F0E0E]">
+          <p className="font-poppins font-normal text-[15px] text-textHover">
             <a href="/faq">Faq</a>
           </p>
         </div>
         <div className="leading-[30px]">
-          <h1 className="font-poppins font-medium text-[18px] text-[#0F0E0E]">
+          <h1 className="font-poppins font-medium text-[18px] text-textHover">
             <a href="/">Platforms</a>
           </h1>
-          <p className="pt-5 font-poppins font-normal text-[15px] text-[#0F0E0E]">
+          <p className="pt-5 font-poppins font-normal text-[15px] text-textHover">
             <a href="/">Android</a>
           </p>
-          <p className="font-poppins font-normal text-[15px] text-[#0F0E0E]">
+          <p className="font-poppins font-normal text-[15px] text-textHover">
             <a href="/">IOS</a>
           </p>
         </div>

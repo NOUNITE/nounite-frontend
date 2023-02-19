@@ -3,11 +3,11 @@ import { logo, harmbugger, close } from "../../assets/index";
 
 const Navbar = () => {
   let Links = [
-    { name: "Home", link: "#home" },
+    { name: "Home", link: "/" },
     { name: "Features", link: "/" },
-    { name: "About", link: "#aboutus" },
+    { name: "About", link: "/#aboutus" },
     { name: "Blog", link: "/" },
-    { name: "Faq", link: "#faq" },
+    { name: "Faq", link: "/#faq" }
   ];
 
   const [click, setClick] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full sticky bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
+    <div className="w-full z-[999] sticky bg-white top-0 left-0 px-1 lg:px-5 md:px-0">
       <div className="md:flex items-center justify-between md:w-full py-4 md:px-4 px-7">
         <div className="w-36 lg:w-24">
           <img

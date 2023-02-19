@@ -6,6 +6,9 @@ import { faqImg } from "../../assets";
 import { faqs } from "../../data/data";
 
 export default function Faq() {
+  const handleClick = () => {
+    window.location.assign("/contact");
+  };
   return (
     <div className="w-full  my-12 ">
       <div className="w-full pt-12">
@@ -42,7 +45,7 @@ export default function Faq() {
         })}
       </div>
       <div className="flex justify-center items-center py-10">
-        <button className="block bg-btnColor text-white w-[10rem]  px-2 py-5 rounded-md font-poppins font-medium text-base md:text-sm">
+        <button onClick={handleClick} className="block bg-btnColor text-white w-[10rem]  px-2 py-5 rounded-md font-poppins font-medium text-base md:text-sm">
           Contact us
         </button>
       </div>

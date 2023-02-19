@@ -1,3 +1,4 @@
+//images import 
 import main from "./images/mainn.png";
 import apple from "./images/apple.png";
 import google from "./images/google.png";
@@ -8,9 +9,17 @@ import altApple from "./images/Shape.svg";
 import faqImg from "./images/faq-img.png";
 import students from "./images/students.png";
 import long from "./images/long.png";
-import facebook from "./images/facebook.png";
-import twitter from "./images/twitter.png";
-import linkedin from "./images/linkedin.png";
+
+//icons imports
+import call  from "./icons/call.png";
+import facebook from "./icons/facebook.png";
+import linkedin from "./icons/LinkedIn.png";
+import location from "./icons/location.png";
+import mail from "./icons/mail.png";
+import twitter from "./icons/Twitter.png";
+
+
+
 
 export {
   main,
@@ -21,9 +30,13 @@ export {
   logo,
   altApple,
   faqImg,
-  students,
-  long,
+  call,
   facebook,
-  twitter,
   linkedin,
+  location,
+  mail,
+  twitter,
+  students,
+  long
+
 };
