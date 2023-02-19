@@ -24,7 +24,8 @@ module.exports = {
         primary: "#36BEB0",
         paragraphColor: "#222",
         gray: "#4F4F4F",
-        inputBorder: "#E0E0E0"
+        inputBorder: "#E0E0E0",
+        buttonText:"#FFFFFF"
       }
     }
   },
