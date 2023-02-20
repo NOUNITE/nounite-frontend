@@ -11,7 +11,7 @@ const MainSection = () => {
         id="home"
       >
         <div className="lg:w-4/6 w-full">
-          <h1 className="font-poppins font-semibold md:text-4xl lg:text-5xl text-5xl leading-[70px] md:leading-[50px] lg:leading-[70px]">
+          <h1 className="font-poppins font-semibold md:text-4xl lg:text-5xl text-5xl sm:text-3xl sm:leading-[50px] leading-[70px] md:leading-[50px] lg:leading-[70px]">
             Making <br /> Open and Distant Learning <br />
             <b className="text-primary">Easier </b>and More{" "}
             <b className="text-primary">Secured</b> <br /> For{" "}
