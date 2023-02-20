@@ -7,7 +7,7 @@ const MainSection = () => {
   return (
     <DefaultLayout>
       <div
-        className="py-16 flex flex-col lg:flex-row px-10 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full"
+        className="py-16 flex flex-col lg:flex-row px-5 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full"
         id="home"
       >
         <div className="lg:w-4/6 w-full">
@@ -45,7 +45,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="items-center mt-10 lg:mt-0 w-full lg:w-[500px] xl-[500px] w-[450px] md:w-[500px]">
+        <div className="items-center mt-10 lg:mt-0 w-full lg:w-[500px] xl-w-[500px]  md:w-[500px]">
           <img src={main} />
         </div>
       </div>
