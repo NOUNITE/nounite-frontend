@@ -26,7 +26,7 @@ const AboutUs = () => {
             <br /> Simpler than ever!
           </p>
         </div>
-        <div className="items-center mt-10 lg:mt-0 sm:w-[300px] lg:w-[450px] xl-[500px] w-[450px] md:w-[400px]">
+        <div className="items-center mt-10 lg:mt-0 sm:w-[340px] lg:w-[450px] xl-[500px] w-[450px] md:w-[400px]">
           <img src={students} />
         </div>
       </div>
