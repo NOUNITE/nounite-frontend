@@ -33,17 +33,19 @@ const Features = () => {
         <img src={Ellipse} />
       </div> */}
       <div className="flex flex-wrap gap-20 justify-center px-5 lg:px-0 md:px-0 mt-28">
-        {cards.map((card) => (
+        {cards.map((card, index) => (
           <div
-            className={`border-${card.color} border px-5 py-5`}
+            key={index}
+            className={`border-${card.color} rounded-md border px-5 py-5`}
             style={{ width: "550px", borderColor: card.color }}
           >
             <h1
-              className={`text-${card.color} font-poppins text-3xl font-medium`}
+              className={`text-${card.color} font-poppins text-3xl w-[250px] leading-[40px] font-medium`}
+              style={{ color: card.color }}
             >
               {card.title}
             </h1>
-            <p className="font-poppins text-base font-normal text-[#000000] pt-5 leading-8">
+            <p className="font-poppins text-base font-normal text-[#000000] w-[350px] pt-5 leading-8">
               {card.text}
             </p>
           </div>
