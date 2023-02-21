@@ -15,7 +15,7 @@ const MainSection = () => {
           <h1
             className="font-poppins font-semibold md:text-5xl lg:text-5xl text-5xl "
             style={{
-              lineHeight: "70px",
+              lineHeight: "70px"
             }}
           >
             Making <br /> Open and Distant Learning <br />
@@ -54,7 +54,7 @@ const MainSection = () => {
         <div
           className="items-center mt-10 lg:mt-0 w-full"
           style={{
-            width: "500px",
+            width: "500px"
           }}
         >
           <img src={main} />
