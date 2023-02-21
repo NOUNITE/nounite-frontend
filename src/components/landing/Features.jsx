@@ -7,21 +7,25 @@ const Features = () => {
       title: "WHERE CAN YOU USE NOUNITE!?",
       text: "Anywhere! NOUNITE is accessible everywhere you are. Are you outside Nigeria but wish to continue studying in NOUN? We make that very possible and seamless using NOUNITE",
       color: "#36BEB0",
+      marginLeft: "0px"
     },
     {
       title: "2 FACTOR AUTHENTICATION(2FA)",
       text: "With our 2FA feature, we ensure that you’re the only one who has access to your account, whenever there’s an attempt to login to your account, you receive a notification via email or SMS.",
       color: "#04D452",
+      marginLeft: "50px"
     },
     {
       title: "LEARN EASILY, LEARN SMARTLY",
       text: "With our lesson reminder for very busy students and our organized learning method, you’re sure of a unique quality and virtual environment for learning.",
       color: "#E53935",
+      marginLeft: "0px"
     },
     {
       title: "TUTOR MARKED ASSIGNMENT",
       text: "Anywhere! NOUNITE is accessible everywhere you are. Are you outside Nigeria but wish to continue studying in NOUN? We make that very possible and seamless using NOUNITE",
       color: "#FFD60A",
+      marginLeft: "50px"
     },
   ];
   return (
@@ -32,20 +36,21 @@ const Features = () => {
       {/* <div className="absolute top-10 right-0">
         <img src={Ellipse} />
       </div> */}
-      <div className="flex flex-wrap gap-20 justify-center px-5 lg:px-0 md:px-0 mt-28">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5 justify-center items-center place-items-center px-5 lg:px-0 md:px-5 mt-28 "
+      >
         {cards.map((card, index) => (
           <div
             key={index}
-            className={`border-${card.color} rounded-md border px-5 py-5`}
-            style={{ width: "550px", borderColor: card.color }}
+            className={`border-${card.color} rounded-md border xl:px-5 lg:px-2 px-3 lg:py-5 py-3 w-[350px] md:w-[280px] lg:w-[400px] xl:w-[500px] sm:${card.marginLeft} `}
+            style={{ borderColor: card.color, marginLeft: card.marginLeft }}
           >
             <h1
-              className={`text-${card.color} font-poppins text-3xl w-[250px] leading-[40px] font-medium`}
+              className={`text-${card.color} font-poppins lg:text-3xl text-[27px] md:text-[23px] lg:w-[250px] leading-[40px] font-medium`}
               style={{ color: card.color }}
             >
               {card.title}
             </h1>
-            <p className="font-poppins text-base font-normal text-[#000000] w-[350px] pt-5 leading-8">
+            <p className="font-poppins text-base font-normal text-black lg:w-[390px] text-[13px] lg:text-[14px] xl:text-[15px] pt-5 lg:leading-8 leading-6">
               {card.text}
             </p>
           </div>
