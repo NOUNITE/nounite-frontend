@@ -10,7 +10,7 @@ import faqImg from "./images/faq-img.png";
 import students from "./images/students.png";
 import long from "./images/long.png";
 import Ellipse1 from "./images/Ellipse1.png";
-import Ellipse from "./images/Ellipse1.png";
+import elli from "./images/elli.png";
 
 //icons imports
 import call from "./icons/call.png";
@@ -37,6 +37,6 @@ export {
   twitter,
   students,
   long,
-  Ellipse,
   Ellipse1,
+  elli
 };
