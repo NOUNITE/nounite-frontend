@@ -1,5 +1,5 @@
 import React from "react";
-import { Ellipse, Ellipse1 } from "../../assets/index";
+import {Ellipse1 , elli } from "../../assets/index";
 
 const Features = () => {
   const cards = [
@@ -30,18 +30,17 @@ const Features = () => {
   ];
   return (
     <div className="relative">
-      <div className="absolute">
+      <div className="absolute lg:w-[300px] md:w-[250px] w-[170px] sm:w[180px] xl:w-[350px] ">
         <img src={Ellipse1} />
       </div>
-      {/* <div className="absolute top-10 right-0">
-        <img src={Ellipse} />
-      </div> */}
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5 justify-center items-center place-items-center px-5 lg:px-0 md:px-5 mt-28 "
-      >
+      <div className="absolute top-10 right-0 lg:w-[300px] md:w-[250px] w-[170px] sm:w[180px] xl:w-[350px] z-10 ">
+        <img src={elli} />
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5 justify-center items-center place-items-center px-5 lg:px-0 md:px-5 mt-28  ">
         {cards.map((card, index) => (
           <div
             key={index}
-            className={`border-${card.color} rounded-md border xl:px-5 lg:px-2 px-3 lg:py-5 py-3 w-[350px] md:w-[280px] lg:w-[400px] xl:w-[500px] sm:${card.marginLeft} `}
+            className={`border-${card.color} rounded-md border xl:px-5 lg:px-2 px-3 lg:py-5 py-3 w-[350px] md:w-[280px] lg:w-[400px] xl:w-[500px] sm:${card.marginLeft} z-20 `}
             style={{ borderColor: card.color, marginLeft: card.marginLeft }}
           >
             <h1
