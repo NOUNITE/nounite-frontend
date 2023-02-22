@@ -9,21 +9,21 @@ const Links = () => {
             Sitemap
           </h1>
           <p className="pt-5 text-paragraphColor">
-            <a href="/">Home</a>
+            <a href="#home">Home</a>
           </p>
 
           <p className="font-poppins font-normal text-[15px] text-textHover">
-            <a href="/">Features</a>
+            <a href="#features">Features</a>
           </p>
 
           <p className="font-poppins font-normal text-[15px] text-textHover">
-            <a href="/">About us</a>
+            <a href="#aboutus">About us</a>
           </p>
           <p className="font-poppins font-normal text-[15px] text-textHover">
             <a href="/">Blog</a>
           </p>
           <p className="font-poppins font-normal text-[15px] text-textHover">
-            <a href="/faq">Faq</a>
+            <a href="#faq">Faq</a>
           </p>
         </div>
         <div className="leading-[30px]">
