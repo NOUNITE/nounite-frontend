@@ -40,11 +40,11 @@ const Features = () => {
         {cards.map((card, index) => (
           <div
             key={index}
-            className={`border-${card.color} rounded-md border xl:px-5 lg:px-2 px-3 lg:py-5 py-3 w-[350px] md:w-[280px] lg:w-[400px] xl:w-[500px] sm:${card.marginLeft} z-20 bg-white `}
+            className={`border-${card.color} rounded-md border xl:px-5 lg:px-2 px-3 lg:py-5 py-3 w-[300px] md:w-[280px] lg:w-[400px] xl:w-[500px] sm:${card.marginLeft} z-20 bg-white `}
             style={{ borderColor: card.color, marginLeft: card.marginLeft }}
           >
             <h1
-              className={`text-${card.color} font-poppins lg:text-3xl text-[27px] md:text-[23px] lg:w-[250px] leading-[40px] font-medium`}
+              className={`text-${card.color} font-poppins lg:text-3xl text-[25px] md:text-[23px] lg:w-[250px] leading-[40px] font-medium`}
               style={{ color: card.color }}
             >
               {card.title}
@@ -56,10 +56,10 @@ const Features = () => {
         ))}
       </div>
       <div className="text-center my-[100px]">
-        <h1 className="text-textHover font-poppins text-[35px] font-semibold">
+        <h1 className="text-textHover font-poppins  text-[35px] font-semibold">
           TAP, OPEN & GO!
         </h1>
-        <p className="text-textHover font-poppins text-[15px] font-normal leading-[20px] mt-5">
+        <p className="text-textHover font-poppins sm:text-[13px] text-[15px] font-normal leading-[20px] mt-5">
           Enjoy a unique learning experience. Shorten long processes,
           <br /> excessive loadings and faster semester registrations.
         </p>
