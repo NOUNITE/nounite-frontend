@@ -11,7 +11,7 @@ const AboutUs = () => {
           <h1 className="font-poppins text-center lg:text-[40px] md:text-[25px] text-[30px] sm:text-[20px] text-textHover font-semibold border border-btnColor border-solid rounded-[200%] py-2 px-8 w-[300px] lg:w-[500px]">
             What is NOUNITE?
           </h1>
-          <p className="font-poppins lg:text-[16px] md:text-[10px] xl:text-[18px] text-[15px] text-black font-normal mt-5">
+          <p className="font-poppins lg:text-[16px] md:text-[10px] xl:text-[18px] text-[13px] text-black font-normal mt-5">
             NOUNITE is a platform that offers a solution
             <br /> to all your academic struggles as a student of NOUN.
             <br />
