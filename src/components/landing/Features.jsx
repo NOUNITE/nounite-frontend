@@ -59,7 +59,7 @@ const Features = () => {
         <h1 className="text-textHover font-poppins  text-[35px] font-semibold">
           TAP, OPEN & GO!
         </h1>
-        <p className="text-textHover font-poppins sm:text-[13px] text-[15px] font-normal leading-[20px] mt-5">
+        <p className="text-textHover font-poppins sm:text-[10px] md:text-[15px] lg:text-[15px] text-[15px] font-normal leading-[20px] mt-5">
           Enjoy a unique learning experience. Shorten long processes,
           <br /> excessive loadings and faster semester registrations.
         </p>
