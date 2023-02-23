@@ -8,17 +8,17 @@ const MainSection = () => {
   return (
     <DefaultLayout>
       <div
-        className="py-16 flex flex-col lg:flex-row px-10 md:flex-row md:text-2xl lg:px-11 md:px-8 w-full"
+        className="py-16 flex flex-col lg:flex-row px-5 md:flex-row md:text-2xl lg:px-5 md:px-5 w-full"
         id="home"
       >
         <div className="lg:w-4/6 w-full">
-          <h1 className="font-poppins font-semibold md:text-4xl lg:text-5xl text-5xl sm:text-3xl sm:leading-[50px] leading-[70px] md:leading-[50px] lg:leading-[70px]">
+          <h1 className="font-poppins font-semibold md:text-[25px] lg:text-[40px]  xl:text-5xl text-5xl sm:text-3xl sm:leading-[43px] leading-[65px] md:leading-[40px] xl:leading-[60px] lg:leading-[55px]">
             Making <br /> Open and Distant Learning <br />
             <b className="text-primary">Easier </b>and More{" "}
             <b className="text-primary">Secured</b> <br /> For{" "}
             <b className="text-primary">You</b>.
           </h1>
-          <p className="pt-5 leading-loose font-poppins font-medium md:text-base text-lg">
+          <p className="pt-5 leading-loose font-poppins font-medium sm:text-[10px] md:text-[13px] text-lg">
             With <b>NOUNITE</b>, your Open and Distant learning experience will
             <br />
             never be the same! Automate so many processes <br /> and get school
@@ -46,7 +46,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="items-center mt-10 lg:mt-0  lg:w-[500px] xl-[500px] w-[450px] md:w-[500px]">
+        <div className="items-center mt-10 lg:mt-0  lg:w-[500px] xl-[500px] w-[350px] md:w-[450px]">
           <img src={main} />
         </div>
       </div>
