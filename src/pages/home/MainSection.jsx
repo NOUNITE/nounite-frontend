@@ -46,7 +46,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="items-center mt-10 lg:mt-0  lg:w-[500px] xl-[500px] w-[350px] md:w-[450px]">
+        <div className="items-center mt-10 lg:mt-0  lg:w-[500px] xl-[500px] w-[330px] md:w-[450px]">
           <img src={main} />
         </div>
       </div>
