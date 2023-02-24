@@ -1,5 +1,5 @@
 import React from "react";
-import {Ellipse1 , elli } from "../../assets/index";
+import { Ellipse1, elli } from "../../assets/index";
 
 const Features = () => {
   const cards = [
@@ -26,14 +26,14 @@ const Features = () => {
       text: "Anywhere! NOUNITE is accessible everywhere you are. Are you outside Nigeria but wish to continue studying in NOUN? We make that very possible and seamless using NOUNITE",
       color: "#FFD60A",
       marginLeft: "50px"
-    },
+    }
   ];
   return (
     <div className="relative">
-      <div className="absolute top-[20px] md:top-[220px] lg:w-[200px] md:w-[250px] w-[170px] sm:w[180px] xl:w-[350px] ">
+      <div className="absolute top-[60px] md:top-[180px] lg:top-[190px] lg:w-[300px] md:w-[250px] w-[130px] sm:w[180px] xl:w-[300px] ">
         <img src={Ellipse1} />
       </div>
-      <div className="absolute top-[-70px] md:top-10 right-0 lg:w-[430px] md:w-[250px] w-[250px]  xl:w-[450px] z-10 ">
+      <div className="absolute top-[-70px] lg:top-[100px] md:top-[-60px] right-0 lg:w-[430px] md:w-[300px] w-[240px] pl-30  xl:w-[450px] z-10 ">
         <img src={elli} />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5 justify-center items-center place-items-center px-5 lg:px-0 md:px-5 mt-28  ">
