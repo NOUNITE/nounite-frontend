@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     screens: {
       sm: "320px",
+      xm:"400px",
       md: "640px",
       xmd: "840px",
       lg: "1024px",
@@ -24,7 +25,8 @@ module.exports = {
         primary: "#36BEB0",
         paragraphColor: "#222",
         gray: "#4F4F4F",
-        inputBorder: "#E0E0E0"
+        inputBorder: "#E0E0E0",
+        buttonText:"#FFFFFF"
       }
     }
   },

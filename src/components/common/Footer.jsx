@@ -17,10 +17,9 @@ const Footer = () => {
         <div className="pt-3 lg:pt-0 md:pt-0">
           <p className="font-poppins font-medium text-[9.8px] align-center text-textHover">
             © 2023 Nounite Media. All Rights Reserved.
-            
           </p>
         </div>
-        <div >
+        <div>
           <SocialIcons />
         </div>
       </div>

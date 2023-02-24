@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route path="/" element={<MainSection />} />
         <Route path="/waitlist" element={<Waitlist />} />
-
         <Route path="/contact" element={<Contact />} />
 
 
